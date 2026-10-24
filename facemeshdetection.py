@@ -1,6 +1,8 @@
+#import libraries
 import cv2 as cv
 import mediapipe as mp
 
+#define vid variable
 vid = cv.VideoCapture(0)
 mp_drawing = mp.solutions.drawing_utils
 mp_face_mesh = mp.solutions.face_mesh
